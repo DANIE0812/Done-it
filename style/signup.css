@@ -1,0 +1,135 @@
+
+.signup {
+    text-align: center;
+    justify-content: center;
+}
+
+.signup h1 {
+    font-size: 3rem;
+    padding: 10px 10px;
+}
+
+input {
+    padding: 15px 15px;
+    border: #fff solid 2px;
+    border-radius: 10px;
+}
+
+.signup input[type="text"], input[type="password"], input[type="email"]  {
+    width: 450px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.signup input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    margin: 15px 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.signup input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #4D017C;
+    transition: 0.3s ease;
+}
+
+.register {
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    color: #4D017C;
+    border: #fff solid 2px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
+}
+
+.btn p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 0.9rem;
+}
+
+div a {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+div a:hover {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+    .signup h1 {
+        font-size: 2rem;
+    }
+
+    .signup input[type="text"], input[type="password"], input[type="email"]  {
+        width: 280px;
+        height: 40px;
+        padding: 15px 15px;
+    }
+
+    .signup input[type="submit"] {
+        width: 150px;
+        height: 40px;
+        padding: 5px 5px;
+        font-size: 0.85rem;
+    }
+    
+    .signup input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #4D017C;
+        transition: 0.3s ease;
+    }
+
+    .btn {
+        width: 200px;
+        height: 45px;
+    }
+    
+    .btn img {
+        width: 1.5rem;
+    }
+    
+    .btn p {
+        padding-left: 5px;
+        font-size: 0.8rem;
+    }
+    
+    div a {
+        color: #fff;
+        font-size: 0.7rem;
+    }
+    
+}
+

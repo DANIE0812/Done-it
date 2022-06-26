@@ -1,0 +1,148 @@
+
+.login {
+    text-align: center;
+    justify-content: center;
+}
+
+.login h1 {
+    font-size: 3rem;
+    padding: 10px 10px;
+}
+
+input {
+    padding: 15px 15px;
+    border: #fff solid 2px;
+    border-radius: 10px;
+}
+
+.login input[type="text"], input[type="password"] {
+    width: 450px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.login input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    margin: 15px 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.login input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #4D017C;
+    transition: 0.3s ease;
+}
+
+.reset {
+    color: #fff;
+    position: absolute;
+    transform: translate(95%, -30%);
+    font-size: 0.8rem;
+}
+
+.reset:hover{
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    color: #4D017C;
+    border: #fff solid 2px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
+}
+
+.btn p {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 0.9rem;
+}
+
+div a {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+div a:hover {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+    .login h1 {
+        font-size: 2rem;
+    }
+
+    .login input[type="text"], input[type="password"] {
+        width: 280px;
+        height: 40px;
+        padding: 15px 15px;
+    }
+
+    .login input[type="submit"] {
+        width: 150px;
+        height: 40px;
+        padding: 5px 5px;
+        font-size: 0.85rem;
+    }
+    
+    .login input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: #fff;
+        color: #4D017C;
+        transition: 0.3s ease;
+    }
+    
+    .reset {
+        position: absolute;
+        transform: translate(40%, -30%);
+        font-size: 0.7rem;
+    }
+    
+    .btn {
+        width: 200px;
+        height: 45px;
+    }
+    
+    .btn img {
+        width: 1.5rem;
+    }
+    
+    .btn p {
+        padding-left: 5px;
+        font-size: 0.8rem;
+    }
+    
+    div a {
+        color: #fff;
+        font-size: 0.7rem;
+    }
+    
+}
+

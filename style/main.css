@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(116.82deg, #270B73 8.54%),
+                linear-gradient(116.82deg, #160051 33.23%),
+                linear-gradient(116.82deg, #160051 47.95%),
+                linear-gradient(116.82deg, #280140 70.77%),
+                linear-gradient(116.82deg, #3C0160 95.38%);
+    background-color: #3C0160;
+    color: #fff;
+}
+
+.container {
+    margin: 10px 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.logo img{
+    height: 3rem;
+    width: 9rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 1rem;
+}
+
+.log-in a {
+    border: #fff 1px solid;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+
+.log-in a:hover {
+    background-color: #fff;
+    color: #4D017C;
+    transition: 0.3s ease;
+}
+
+.sign-up a {
+    background-color: #fff;
+    color: #4D017C;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    padding: 5px 14px;
+}
+
+
+.sign-up a:hover {
+    background-color: transparent;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    user-select: none;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero span {
+    font-size: 0.8rem;
+    position: absolute;
+    transform: translate(-10%, -100%);
+}
+
+.hero h4 {
+    margin: 20px 10px;
+    font-size: 1.25rem;
+}
+
+.hero img {
+    margin-top: 30px;
+    width: 350px;
+    height: 300px;
+}
+
+
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+
+    .container {
+        margin: 5px 15px;
+    }
+
+    .logo img {
+        height: 2.5rem;
+        width: 7.5rem;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: #000;
+        transition: 0. 3s ease;
+    }
+
+    .menu a {
+        color: #000;
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero span {
+        font-size: 0.6rem;
+    }
+    
+    .hero h4 {
+        margin: 10px 5px;
+        font-size: 0.85rem;
+    }
+    
+    .hero img {
+        margin-top: 35px;
+        width: 250px;
+        height: 200px;
+    }
+}
