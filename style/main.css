@@ -9,12 +9,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(116.82deg, #270B73 8.54%),
-                linear-gradient(116.82deg, #160051 33.23%),
-                linear-gradient(116.82deg, #160051 47.95%),
-                linear-gradient(116.82deg, #280140 70.77%),
-                linear-gradient(116.82deg, #3C0160 95.38%);
-    background-color: #3C0160;
+    background: linear-gradient(116.82deg, #270B73 8.54%, #160051 33.23%, #160051 47.95%, #280140 70.77%, #3C0160 95.38%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
     color: #fff;
 }
 
@@ -117,6 +114,21 @@ input[type=checkbox] {
     height: 300px;
 }
 
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    background: linear-gradient(180deg, #50017F 34.9%, #19014A 100%);
+    filter: blur(50px);
+    bottom: 0;
+    left: 0;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 
 
 /* APPLYING MEDIA QUERIES */
@@ -180,5 +192,10 @@ input[type=checkbox] {
         margin-top: 35px;
         width: 250px;
         height: 200px;
+    }
+
+    .circle{
+        width: 100px;
+        height: 100px;
     }
 }
