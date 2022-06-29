@@ -28,11 +28,12 @@
 }
 .inputField button 
 {
-    width: 50px;
-    height: 100%;
+    width: 40px;
+    height: 90%;
     background: #8E49E8;
     color: #fff;
-    font-size: 2rem;
+    padding: 5.5px;
+    font-size: 1.5rem;
     cursor: pointer;
     border-radius: 3px;
     margin-left: 5px;
@@ -57,13 +58,13 @@
 .todoList li
 {
     list-style: none;
-    height: 20px;
-    line-height: 10px;
+    height: 35px;
+    line-height: 20px;
     position: relative;
-    background: #3a184e;
+    background: #3A184E;
     border-radius: 3px;
     margin-bottom: 5px;
-    padding: 10px 5px;
+    padding: 10px 10px;
     cursor: default;
     overflow: hidden;
     color: #fff;
@@ -92,6 +93,7 @@
 {
     display: flex;
     width: 100%;
+    font-size: .8rem;
     align-items: center;
     margin-top: 20px;
     justify-content: space-between;
@@ -102,10 +104,10 @@
     outline: none;
     background: #8E49E8;
     color: #fff;
-    font-size: .85rem;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 3px;
-    padding: 5px 8px;
+    padding: 5px 5px;
     margin-left: 5px;
     user-select: none;
     opacity: 0.8;

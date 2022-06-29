@@ -1,13 +1,10 @@
-
 header
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 16px 14px;   
-    margin-top: 25px;
-    margin-left: 25px;
-    height: 70px;
+    align-items: center; 
+    padding: 10px;
+    margin: 10px 80px;
 }
 .sidebar
 {
@@ -21,23 +18,25 @@ header
 {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1rem;
 }
 .menuicon
 {
+    display: none;
     color: #FFFFFF;
 }
 .material-icons
 {
  font-size: 3rem; 
- margin-right: 15px;  
+ margin-right: 10px;  
 }
-.container
+.div-container
 {
     display: flex;
+    margin: 0px 80px;
 }
 .twosides
 {
@@ -66,6 +65,10 @@ header
     background: #341980;
     color: #FFFFFF;
 }
+.doing h4,
+.done h4 {
+    padding: 40px 25px;
+}
 .inner
 {
     align-items: center;
@@ -78,12 +81,19 @@ header
     padding-top: 5px;
 }
 
+
+
 @media screen and (max-width : 768px) {
-    .logo-text{
-        display: none;
+    header {
+        padding: 10px;
+        margin: 10px 20px;
     }
-    
+
+    .div-container {
+    margin: 0px 20px;
+    } 
 }
+
 @media screen and (max-width : 768px) {
     .sidebar{
         display: none;
@@ -98,6 +108,7 @@ header
         display: none;
     }
 }
+
 .todo
 {
     display: inline-block;
@@ -212,7 +223,7 @@ header
     outline: none;
     background: #8E49E8;
     color: #fff;
-    font-size: 16px;
+    font-size: .8rem;
     cursor: pointer;
     border-radius: 3px;
     padding: 6px 10px;
