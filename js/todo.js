@@ -1,3 +1,4 @@
+
 const sidebar = document.querySelector(".sidebar");
 const menuicon = document.querySelector(".menuicon");
 const twosides = document.querySelector(".twosides");
@@ -28,7 +29,7 @@ const todoList = document.querySelector(".todoList");
 const deleteAllBtn = document.querySelector(".footer button")
 
 //onkeyup event
-inputBox.onkeyup = ()=>
+inputBox.onkeyup = () =>
 {
     let userEnteredValue = inputBox.value; //getting user entered value
     if(userEnteredValue.trim() !=0) //if user values aren't only spaces
@@ -42,7 +43,7 @@ inputBox.onkeyup = ()=>
 }
 
 //if user clicks on the add icon button
-addBtn.onclick = ()=>
+addBtn.onclick = () =>
 {
     let userEnteredValue = inputBox.value; //getting input field value
     let getLocalStorageData = localStorage.getItem("New Todo"); //getting localstorage
