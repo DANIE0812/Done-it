@@ -32,7 +32,7 @@ const deleteAllBtn = document.querySelector(".footer button")
 inputBox.onkeyup = () =>
 {
     let userEnteredValue = inputBox.value; //getting user entered value
-    if(userEnteredValue.trim() !=0) //if user values aren't only spaces
+    if(userEnteredValue.trim() !=0) //if user values are not only spaces
     {
         addBtn.classList.add("active"); //activate the add button
     }
